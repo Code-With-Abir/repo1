@@ -24,6 +24,7 @@ header{
     color: white;
     font-weight: 600
      ;
+     text-decoration: none;
 }
 header > nav > h1{
     font-size: 32px;
@@ -339,4 +340,71 @@ iframe{
    margin-top: 5rem;
    text-decoration: underline;
    color: black;
+}
+.input-box{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    width: 1120px;
+    height: 331px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+}
+
+.input{
+    margin-top: 3rem;
+}
+.sr{
+    width: 548px;
+    height: 57px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #b5b5b5;
+}
+.sm{
+    width: 120px;
+    height: 57px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #b5b5b5;
+}
+.input-box > h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 3rem;
+
+}
+
+.input-box >p{
+    font-weight: 500;
+    color: #fff;
+    margin-top: 2rem;
+
+}
+footer{
+    background-color: #b5b5b5;
+    align-items: center;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.icon{
+    display: flex;
+    margin-right: 4.3rem;
+    gap: 10px;
+
+}
+.con >h3{
+    margin-left: 4.3rem;
 }
