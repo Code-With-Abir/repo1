@@ -1,0 +1,89 @@
+/** Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+header{
+    align-items: center;
+}
+.erl{
+    color: white;
+    font-weight: 600
+     ;
+}
+header > nav > h1{
+    font-size: 32px;
+    margin-bottom: 3rem;
+    
+}
+
+header > nav > button{
+    padding: 10px 20px ;
+    font-weight: 700;
+    background: transparent;
+    border-radius: 8px;
+    border-color: #1E1E1E 1px;
+
+}
+.pp{
+    margin-bottom: 2rem;
+    
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 29px 89px;
+}
+.image-cont{
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content{
+    /* max-width: fit-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.h1{
+    margin-bottom: 1.3rem;
+}
+.btn-1{
+    margin-top: 2rem;
+    padding: 12px 30px ;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+   background-color: #0D1321;
+   color: #fff;
+   font-size: 1rem;
+   border-radius: 8px;
+}
+.btn-1 > a {
+    text-decoration: none;
+}
+.pgrf-1{
+    font-size: 15px;
+    font-weight: 500;
+    
+}
